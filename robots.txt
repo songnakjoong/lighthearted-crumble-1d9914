@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+Sitemap: https://xn--299ayys8h0pib7cz6tda334m.kr/sitemap.xml
