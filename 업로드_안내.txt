@@ -6,12 +6,16 @@
 - index.html
 - images 폴더
 - videos 폴더
+- robots.txt
+- sitemap.xml
+- _redirects
 
 주의사항:
 1. index.html만 올리면 사진과 영상이 나오지 않습니다.
 2. images, videos 폴더 이름을 바꾸지 마세요.
 3. 폴더 안 파일명을 임의로 바꾸지 마세요.
-4. 호스팅에 업로드할 때 이 폴더 자체가 아니라, 이 폴더 안의 index.html, images, videos를 올리는 방식이 일반적입니다.
+4. 호스팅에 업로드할 때 이 폴더 자체가 아니라, 이 폴더 안의 전체 파일과 폴더를 빠짐없이 올리세요.
+5. _redirects는 /index.html 중복 주소를 공식 대표 주소로 보내는 Netlify 설정 파일이므로 삭제하지 마세요.
 
 배포 후 확인할 것:
 - PC와 모바일 첫 화면이 정상적으로 보이는지
